@@ -12,14 +12,17 @@ This is a little bit about myself
 
 Research
 ======
+------
 This is a little about my research
 
 Fellowships
+======
 ------
 RAICo Junior Fellowship
 
 Affiliations
 ======
+------
 RAI
 CRADLE
 Dalton Champion

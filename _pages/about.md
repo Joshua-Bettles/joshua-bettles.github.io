@@ -14,7 +14,12 @@ About Me
 ======
 ------
 
-This is a little bit about myself
+Originally from Northamptonshire, I moved to Manchester in 2018 to pursue a Master's Degree in Mechatronic Engineering with Industrial Placement at the University of Manchester. During this time I took a placement year as a robotics engineer with [WAAM3D](www.waam3d.com) developing skills in Automation, PLC Development, Industrial Robotics, Welding and Additive Manufacturing. I later graduated from the University of Manchester with Honours in 2023.
+
+
+I am currently a 2<sup>nd</sup> Post Graduate Researcher in Robotics within the Department of Electrical and Electronic Engineering at [The University of Manchester](www.manchester.ac.uk), Manchester, UK. I am currently situated as a researcher within the Centre for Robotic Autonomy in Demanding and Long-lasting Environments, CRADLE. 
+
+Alongside my academic career, I jump at every opportunity to volunteer and give back to the community. Over the past couple of years, I have been a part of many outreach activities as well as led several events delivering and teaching robotics to year 6-8 students from schools in the manchester area.
 
 
 Research

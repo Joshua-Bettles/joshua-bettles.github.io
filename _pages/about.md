@@ -19,7 +19,7 @@ Originally from Northamptonshire, I moved to Manchester in 2018 to pursue a Mast
 
 I am currently a 2<sup>nd</sup> Post Graduate Researcher in Robotics within the Department of Electrical and Electronic Engineering at [The University of Manchester](www.manchester.ac.uk), Manchester, UK. I am currently situated as a researcher within the Centre for Robotic Autonomy in Demanding and Long-lasting Environments, CRADLE. 
 
-Alongside my academic career, I jump at every opportunity to volunteer and give back to the community. Over the past couple of years, I have been a part of many outreach activities as well as led several events delivering and teaching robotics to year 6-8 students from schools in the manchester area.
+Alongside my academic career, I jump at every opportunity to volunteer and give back to the community. Over the past couple of years, I have been a part of many outreach activities as well as led several events delivering and teaching robotics to Year 6-8 students from schools in the Manchester area.
 
 
 Research

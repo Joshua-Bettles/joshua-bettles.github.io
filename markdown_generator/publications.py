@@ -74,7 +74,7 @@ for row, item in publications.iterrows():
     
     md += """collection: publications"""
     
-    md += """category: """ + str(item.category)
+    md += """\ncategory: """ + str(item.category)
     
     md += """\npermalink: /publication/""" + html_filename
     

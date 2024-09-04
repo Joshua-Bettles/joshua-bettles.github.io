@@ -1,6 +1,7 @@
 ---
 title: "Accessibility Framework for Determining Collisions and Coverage for Radiation Scanning."
-collection: publicationscategory: manuscript
+collection: publications
+category: manuscript
 permalink: /publication/2024-08-24-Accessibility-TAROS-2024-2
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2024-08-24

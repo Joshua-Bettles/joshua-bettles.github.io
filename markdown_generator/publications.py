@@ -104,7 +104,7 @@ for row, item in publications.iterrows():
     #    md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n" 
         
     if len(str(item.abstract)) > 5:
-        md += "\n" + html_escape(item.abstract) + "\n"
+        md += "\n" + str(html_escape(item.abstract)) + "\n"
         
     #md += "\nRecommended citation: " + item.citation
     

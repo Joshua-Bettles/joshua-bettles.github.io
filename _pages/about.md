@@ -38,6 +38,7 @@ Affiliations
 - Member of the Centre for Robotics and Artificial Intelligence, RAI.
 - Member of the Centre for Robotic Autonomy in Demanding and Long-lasting Environments, CRADLE.
 - Dalton Champion for the Dalton Nuclear Institute.
+- RAICo Junior Fellow.
 
 
 

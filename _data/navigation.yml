@@ -9,7 +9,7 @@ main:
     url: /publications/
 
   - title: "Test Page"
-    permalink: /test_page/
+    url: /test_page/
 
 #  - title: "Talks"
 #    url: /talks/      

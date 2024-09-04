@@ -74,6 +74,8 @@ for row, item in publications.iterrows():
     
     md += """collection: publications"""
     
+    md += """category: """ + str(item.category)
+    
     md += """\npermalink: /publication/""" + html_filename
     
     if len(str(item.excerpt)) > 5:
@@ -82,6 +84,11 @@ for row, item in publications.iterrows():
     md += "\ndate: " + str(item.pub_date) 
     
     md += "\nvenue: '" + html_escape(item.venue) + "'"
+    
+    slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
+    
+    if len(str(item.slides_url)) > 5:
+        md += "\nslidesurl: '" + item.slides_url + "'"
     
     if len(str(item.paper_url)) > 5:
         md += "\npaperurl: '" + item.paper_url + "'"

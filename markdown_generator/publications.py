@@ -87,11 +87,13 @@ for row, item in publications.iterrows():
     
     ##slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
     
-    if len(str(item.slides_url)) > 5:
-        md += "\nslidesurl: '" + item.slides_url + "'"
-    
+        
     if len(str(item.paper_url)) > 5:
         md += "\npaperurl: '" + item.paper_url + "'"
+    
+    if len(str(item.slides_url)) > 5:
+        md += "\nslidesurl: '" + item.slides_url + "'"
+
         
     if len(str(item.citation)) > 5:
     	md += "\ncitation: '" + html_escape(item.citation) + "'"

@@ -85,7 +85,7 @@ for row, item in publications.iterrows():
     
     md += "\nvenue: '" + html_escape(item.venue) + "'"
     
-    slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
+    ##slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
     
     if len(str(item.slides_url)) > 5:
         md += "\nslidesurl: '" + item.slides_url + "'"
@@ -96,15 +96,15 @@ for row, item in publications.iterrows():
     if len(str(item.citation)) > 5:
     	md += "\ncitation: '" + html_escape(item.citation) + "'"
     
-    md += "\n---"
+    md += "\n---\n"
     
     ## Markdown description for individual page
     
     #if len(str(item.paper_url)) > 5:
     #    md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n" 
         
-    if len(str(item.abstract)) > 5:
-        md += "\n" + str(html_escape(item.abstract)) + "\n"
+    #if len(str(item.abstract)) > 5:
+    #    md += "\n" + str(html_escape(item.abstract)) + "\n"
         
     #md += "\nRecommended citation: " + item.citation
     

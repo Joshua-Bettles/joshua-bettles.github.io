@@ -25,19 +25,20 @@ Alongside my academic career, I jump at every opportunity to volunteer and give 
 Research
 ======
 ------
-This is a little about my research
+Currently pursuing a PhD in the development of a Cobot Radiological Survey Assistant. Interested in novel path planning approaches for 3D object coverage for the detection of radioactive contamination on items leaving controlled areas.  
 
 Fellowships
 ======
 ------
-RAICo Junior Fellowship
+Recently awarded the [RAICo Junior Fellowship](https://raico.org/academia/fellowships/) to build an initial demonstrator system.
 
 Affiliations
 ======
 ------
-RAI
-CRADLE
-Dalton Champion
+- Member of the Centre for Robotics and Artificial Intelligence, RAI.
+- Member of the Centre for Robotic Autonomy in Demanding and Long-lasting Environments, CRADLE.
+- Dalton Champion for the Dalton Nuclear Institute.
+
 
 
 

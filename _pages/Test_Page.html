@@ -1,0 +1,12 @@
+---
+layout: archive
+title: "Test Page"
+permalink: /test_page/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% for post in site.Test_Page reversed %}
+  {% include archive-single.html %}
+{% endfor %}

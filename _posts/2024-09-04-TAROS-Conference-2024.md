@@ -8,7 +8,7 @@ tags:
   - TAROS
 ---
 
-TAROS (Towards Autonomous RObotic Systems) is an annual UK based robotics conference. This year the conference and proceedings focus on robotics, mechatronics, image processing, computer vision, and application-based systems, human computer interaction. This was the 25<sup>th</sup> annual conference which was held at Brunel University of London and was attend by many UK based academics as well as several overseas researchers. TAROS is regarded as a great introductory conference for PGRs to submit to and attend to gain vital experience in the publication and presenting processes.
+TAROS (Towards Autonomous Robotic Systems) is an annual UK based robotics conference. This year the conference and proceedings focus on robotics, mechatronics, image processing, computer vision, and application-based systems, human computer interaction. This was the 25<sup>th</sup> annual conference which was held at Brunel University of London and was attend by many UK based academics as well as several overseas researchers. TAROS is regarded as a great introductory conference for PGRs to submit to and attend to gain vital experience in the publication and presenting processes.
 
 My Experience
 ------

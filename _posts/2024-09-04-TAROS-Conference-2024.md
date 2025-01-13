@@ -16,7 +16,7 @@ Although I have presented works at different events, this was my first experienc
 
 Luckily, I was not alone. There was serveral PhD students from The University of Manchester presenting at the conference. It also turned into a great networking event as everyone was super friendly and all passionate about different aspects of robotics. I was fortunante to give a 15 minute presentation on my first year work with it being published into the proceedings.
 
-![alt text](images/TAROS_Presenting.png "Title")
+![alt text](TAROS_Presenting.png "Title")
   
 There were many interesting projects and papers this year. Some highlights for me were a robotic dog tail and how humans can preceive emotion from it, a opensource soft robot. And obviously work by a my friend on using the Extended Cooperative Dual Task-Space.
 

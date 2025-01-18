@@ -25,10 +25,12 @@ Watch this space for updates and cool photos! And reach out if you're interested
 
 <img src="/images/NDA_Supply_Chain/Centre.jpg"
      alt="Arriving at the Centre"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;" 
+     width="50%"/>
 <img src="/images/NDA_Supply_Chain/opening.jpg"
      alt="Opening Ceremoney"
-     style="float: right; margin-left: 10px;" />
+     style="float: right; margin-left: 10px;" 
+     width="50%"/>
 
 ![Arriving at the Centre](/images/NDA_Supply_Chain/Centre.jpg) ![Opening Ceremoney](/images/NDA_Supply_Chain/opening.jpg)
 ![Spot](/images/NDA_Supply_Chain/Dog.mp4)

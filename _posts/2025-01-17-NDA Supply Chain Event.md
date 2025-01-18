@@ -25,13 +25,15 @@ Watch this space for updates and cool photos! And reach out if you're interested
 
 <img src="/images/NDA_Supply_Chain/Centre.jpg"
      alt="Arriving at the Centre"
-     style="float: left; margin-right: 10px;" 
+     style="float: left;" 
      width="50%"/>
 <img src="/images/NDA_Supply_Chain/opening.jpg"
      alt="Opening Ceremoney"
-     style="float: right; margin-left: 10px;" 
+     style="float: right;" 
      width="50%"/>
-
-![Arriving at the Centre](/images/NDA_Supply_Chain/Centre.jpg) ![Opening Ceremoney](/images/NDA_Supply_Chain/opening.jpg)
-![Spot](/images/NDA_Supply_Chain/Dog.mp4)
-![CRADLE Group](/images/NDA_Supply_Chain/Group_Photo.jpg)
+<img src="/images/NDA_Supply_Chain/Dog.gif"
+     alt="Spot"
+     width="100%"/>
+<img src="/images/NDA_Supply_Chain/Group_Photo.jpg"
+     alt="CRADLE Group"
+     width="100%"/>

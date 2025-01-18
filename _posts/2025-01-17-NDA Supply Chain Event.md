@@ -23,6 +23,13 @@ This kicks off a busy couple of months for myself and my project where I will be
 Watch this space for updates and cool photos! And reach out if you're interested in engaging further.
 
 
+<img src="/images/NDA_Supply_Chain/Centre.jpg"
+     alt="Arriving at the Centre"
+     style="float: left; margin-right: 10px;" />
+<img src="/images/NDA_Supply_Chain/opening.jpg"
+     alt="Opening Ceremoney"
+     style="float: right; margin-left: 10px;" />
+
 ![Arriving at the Centre](/images/NDA_Supply_Chain/Centre.jpg) ![Opening Ceremoney](/images/NDA_Supply_Chain/opening.jpg)
 ![Spot](/images/NDA_Supply_Chain/Dog.mp4)
 ![CRADLE Group](/images/NDA_Supply_Chain/Group_Photo.jpg)

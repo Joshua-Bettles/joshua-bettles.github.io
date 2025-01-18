@@ -24,11 +24,11 @@ Watch this space for updates and cool photos! And reach out if you're interested
 <img src="/images/NDA_Supply_Chain/Centre.jpg"
      alt="Arriving at the Centre"
      style="float: left;" 
-     width="49%"/>
+     width="49.99%"/>
 <img src="/images/NDA_Supply_Chain/opening.jpg"
      alt="Opening Ceremoney"
      style="float: right;" 
-     width="49%"/>
+     width="49.99%"/>
 <img src="/images/NDA_Supply_Chain/Dog.gif"
      alt="Spot"
      width="100%"/>

@@ -16,20 +16,26 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Spring 2022 - Spring 2024: Robotics Engineer
+  * WAAM3D Ltd.
+  * Duties included: 
+    * Developing new electrical and control systems for their flagship product.
+    * Writing new robot programs for automation.
+    * Conducting CE and UKCA marking.
+    * Developing a simulator and modeling of the 6 DoF industrial robot
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Fall 2015: Robotics Society Committee member
+  * The University of Manchester
+  * Position:
+    * President
+    * Social Secretary
+    * Educational Officer
+    * Events manager
+  * Duties included:
+    * Running and managing a society of 300 members.
+    * Orgnaising and hosting weekly sessions.
+    * Planning and running the UK's largest 24 hr robotics hackathon.
+    * Hosting socials, educational events, engaging in outreach and volunteering activities.
   
 Skills
 ======
@@ -52,11 +58,6 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
 Service and leadership
 ======

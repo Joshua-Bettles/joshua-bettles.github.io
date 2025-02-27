@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Electronic and Electrical Engineering specialising in Robotics and Control, The University of Manchester, 2027 (expected)
+* Ph.D in Electronic and Electrical Engineering, The University of Manchester, 2027 (expected)
 * M.Eng. in Mechatronic Engineering with Industrial Placement, The University of Manchester, 2023
 
 Work experience

@@ -13,6 +13,7 @@ Education
 ======
 * Ph.D in Electronic and Electrical Engineering, The University of Manchester, 2027 (expected)
 * M.Eng. in Mechatronic Engineering with Industrial Placement, The University of Manchester, 2023
+    * Thesis: Inertial Control of a 3-Wheeled Omnidirectional Robot
 
 Work experience
 ======
@@ -36,15 +37,6 @@ Work experience
     * Orgnaising and hosting weekly sessions.
     * Planning and running the UK's largest 24 hr robotics hackathon.
     * Hosting socials, educational events, engaging in outreach and volunteering activities.
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 Publications
 ======
@@ -52,13 +44,3 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams

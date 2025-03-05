@@ -12,6 +12,7 @@ redirect_from:
 Education
 ======
 * Ph.D in Electronic and Electrical Engineering, The University of Manchester, 2027 (expected)
+    * Research Area: The Development of a Cobot Radiological Survey Assistant 
 * M.Eng. in Mechatronic Engineering with Industrial Placement, The University of Manchester, 2023
     * Thesis: Inertial Control of a 3-Wheeled Omnidirectional Robot
 

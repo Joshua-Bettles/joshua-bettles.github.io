@@ -47,5 +47,5 @@ Publications
 
 PDF Version of CV
 ------
-Please find a PDF version of my CV (Here)[/files/Joshua_Bettles_CV.pdf]
+Please find a PDF version of my CV [Here](/files/Joshua_Bettles_CV.pdf)
   

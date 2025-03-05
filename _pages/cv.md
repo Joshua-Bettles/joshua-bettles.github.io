@@ -44,4 +44,8 @@ Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+PDF Version of CV
+------
+Please find a PDF version of my CV (Here)[/files/Joshua_Bettles_CV.pdf]
   

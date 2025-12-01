@@ -1,7 +1,7 @@
 ---
 title: "Planning and Control of Mobile Manipulators for Inspection of Clustered Environments"
 collection: publications
-category: Pre-print Abstract
+category: preabstracts
 permalink: /publication/2025-12-1-WBC-UKManipulator-2025.md
 excerpt: 'This Abstract looks at formulating a whole-body controller for a mobile manipulator and applying coverage path planning techniques to allow inspection of clustered environments.'
 date: 2025-12-1

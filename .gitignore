@@ -8,6 +8,11 @@ Archive/
 # Ignore the Gemfile that is generated
 Gemfile.lock
 
+# local files
+._.DS_Store
+._index
+.DS_Store
+
 # Ingore files created by npm
 node_modules
 package-lock.json

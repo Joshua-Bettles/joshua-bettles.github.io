@@ -11,3 +11,11 @@ Each page is self-contained in its own folder. The CSS and assets are intentiona
 
 ## Deploy
 Upload the contents of this folder to the root of the `joshua-bettles.github.io` repository. GitHub Pages will serve the root redirect, which forwards visitors to `home/index.html`.
+
+
+## SEO and Google indexing
+- `robots.txt` permits crawling and advertises `sitemap.xml`.
+- `sitemap.xml` lists canonical page URLs.
+- The root homepage includes SEO metadata and Person structured data.
+- See `SEO-AND-GOOGLE-SEARCH.md` for Google Search Console verification and indexing steps.
+- Google verification requires the unique file or token provided in your own Search Console account; that cannot be pre-generated.

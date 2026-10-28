@@ -1,10 +1,10 @@
 /* Joshua Bettles — personal research website */
-:root{--bg:#18181c;--bg-deep:#111114;--panel:#222227;--panel-soft:#29292f;--purple:#7b2cbf;--purple-light:#9d4edd;--accent:#b76cff;--text:#f2f2f4;--soft:#c7c7cd;--muted:#9999a3;--line:rgba(255,255,255,.11);--width:1120px}
+:root{--bg:#18181c;--bg-deep:#111114;--panel:#222227;--panel-soft:#29292f;--purple:#b91c1c;--purple-light:#ef4444;--accent:#f87171;--text:#f2f2f4;--soft:#c7c7cd;--muted:#9999a3;--line:rgba(255,255,255,.11);--width:1120px}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:90px}
 body{margin:0;background:var(--bg);color:var(--text);font:16px/1.75 "Segoe UI",Roboto,Helvetica,Arial,sans-serif}
 a{color:var(--accent);text-decoration:none;transition:color .2s,background .2s,border-color .2s}
-a:hover{color:#d9b5ff}
+a:hover{color:#fca5a5}
 img{max-width:100%;display:block}
 .container{width:min(var(--width),calc(100% - 48px));margin:0 auto}
 .site-header{position:sticky;top:0;z-index:1000;background:rgba(17,17,20,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
@@ -13,7 +13,7 @@ img{max-width:100%;display:block}
 .brand small{color:var(--muted);font-size:.72rem;font-weight:500;letter-spacing:.04em;margin-top:5px}
 .nav-links{display:flex;align-items:center;gap:5px;flex-wrap:wrap}
 .nav-links a{display:inline-flex;align-items:center;min-height:72px;padding:0 13px;border-bottom:3px solid transparent;color:var(--soft);font-size:.9rem;font-weight:600}
-.nav-links a:hover,.nav-links a.current{color:#fff;background:rgba(123,44,191,.12);border-bottom-color:var(--purple-light)}
+.nav-links a:hover,.nav-links a.current{color:#fff;background:rgba(239,68,68,.12);border-bottom-color:var(--purple-light)}
 .menu-toggle{display:none}
 .hero{position:relative;isolation:isolate;overflow:hidden;min-height:560px;display:flex;align-items:center;background:#101014}
 .hero::before{content:"";position:absolute;inset:0;z-index:-2;background-image:linear-gradient(90deg,rgba(12,12,16,.95) 0%,rgba(12,12,16,.83) 52%,rgba(12,12,16,.45) 100%),url("images/cool-robot-photo-1036x1554.jpg");background-size:cover;background-position:center 42%;opacity:.95}

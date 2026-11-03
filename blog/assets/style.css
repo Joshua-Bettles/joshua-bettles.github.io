@@ -132,3 +132,6 @@ h2{font-size:clamp(2rem,4vw,3rem);letter-spacing:-.035em;margin:0}
 .article .figure-row figure{margin:0}
 .article figure video{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:9px;background:var(--panel)}
 @media(max-width:600px){.article .figure-row{grid-template-columns:1fr}}
+.article figure.poster img{max-width:620px;margin:0 auto;display:block}
+.article .pullquote{margin:36px 0;padding:6px 0 6px 24px;border-left:3px solid var(--accent)}
+.article .pullquote p{font-size:1.2rem;line-height:1.7;color:#fff;font-style:italic;margin:0}

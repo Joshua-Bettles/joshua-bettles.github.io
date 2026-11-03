@@ -5,29 +5,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
-        content="Updates on my RAICo Junior Fellowship, building an initial demonstrator for robotic radioactive contamination monitoring.">
+        content="Looking back on my 2024–25 RAICo Junior Fellowship: building a cobot demonstrator that plans scan paths to detect radioactive contamination on objects and people.">
     <meta name="theme-color" content="#18181c">
-    <title>RAICo Junior Fellowship | Joshua R. Bettles</title>
+    <title>RAICo Junior Fellowship: a cobot radiological survey assistant | Joshua R. Bettles</title>
     <meta name="robots" content="index, follow, max-image-preview:large">
     <link rel="canonical" href="https://joshua-bettles.github.io/blog/raico-junior-fellowship/">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="Joshua R. Bettles">
-    <meta property="og:title" content="RAICo Junior Fellowship | Joshua R. Bettles">
+    <meta property="og:title" content="RAICo Junior Fellowship: a cobot radiological survey assistant | Joshua R. Bettles">
     <meta property="og:description"
-        content="Updates on my RAICo Junior Fellowship, building an initial demonstrator for robotic radioactive contamination monitoring.">
+        content="Looking back on my 2024–25 RAICo Junior Fellowship: building a cobot demonstrator that plans scan paths to detect radioactive contamination on objects and people.">
     <meta property="og:url" content="https://joshua-bettles.github.io/blog/raico-junior-fellowship/">
-    <meta property="og:image" content="https://joshua-bettles.github.io/home/assets/images/profile-1256x1255.png">
-    <meta property="og:image:alt" content="Portrait of Joshua R. Bettles">
-    <meta property="article:published_time" content="2025-03-31">
+    <meta property="og:image" content="https://joshua-bettles.github.io/blog/assets/images/raico-fellow-card.jpg">
+    <meta property="og:image:alt"
+        content="Simulation of a collaborative robot arm planning a scan path over a human model">
+    <meta property="article:published_time" content="2025-05-16">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="RAICo Junior Fellowship | Joshua R. Bettles">
+    <meta name="twitter:title"
+        content="RAICo Junior Fellowship: a cobot radiological survey assistant | Joshua R. Bettles">
     <meta name="twitter:description"
-        content="Updates on my RAICo Junior Fellowship, building an initial demonstrator for robotic radioactive contamination monitoring.">
-    <meta name="twitter:image" content="https://joshua-bettles.github.io/home/assets/images/profile-1256x1255.png">
+        content="Looking back on my 2024–25 RAICo Junior Fellowship: building a cobot demonstrator that plans scan paths to detect radioactive contamination on objects and people.">
+    <meta name="twitter:image" content="https://joshua-bettles.github.io/blog/assets/images/raico-fellow-card.jpg">
     <link rel="icon" type="image/png" href="../assets/images/logo.png">
     <link rel="stylesheet" href="../assets/style.css">
     <script
-        type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"RAICo Junior Fellowship","datePublished":"2025-03-31","author":{"@type":"Person","name":"Joshua R. Bettles","url":"https://joshua-bettles.github.io/"},"image":"https://joshua-bettles.github.io/home/assets/images/profile-1256x1255.png","mainEntityOfPage":"https://joshua-bettles.github.io/blog/raico-junior-fellowship/","description":"Updates on my RAICo Junior Fellowship, building an initial demonstrator for robotic radioactive contamination monitoring."}</script>
+        type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"RAICo Junior Fellowship: a cobot radiological survey assistant","datePublished":"2025-05-16","author":{"@type":"Person","name":"Joshua R. Bettles","url":"https://joshua-bettles.github.io/"},"image":"https://joshua-bettles.github.io/blog/assets/images/raico-fellow-card.jpg","mainEntityOfPage":"https://joshua-bettles.github.io/blog/raico-junior-fellowship/","description":"Looking back on my 2024–25 RAICo Junior Fellowship: building a cobot demonstrator that plans scan paths to detect radioactive contamination on objects and people."}</script>
 </head>
 
 <body>
@@ -49,19 +51,104 @@
             <div class="container">
                 <a class="back-link" href="../index.html">← Back to blog</a>
                 <p class="eyebrow">Research · Fellowship</p>
-                <h1>RAICo Junior Fellowship</h1>
-                <div class="article-meta"><time class="date" datetime="2025-03-31">31 March 2025</time>
+                <h1>RAICo Junior Fellowship: a cobot radiological survey assistant</h1>
+                <div class="article-meta"><time class="date" datetime="2025-05-16">16 May 2025</time>
                     <div class="tag-list"><span class="tag">Robotics</span><span class="tag">Fellowship</span><span
-                            class="tag">RAICo</span></div>
+                            class="tag">RAICo</span><span class="tag">Nuclear</span></div>
                 </div>
             </div>
         </section>
         <section class="content-section">
             <div class="container">
                 <article class="article">
-                    <div class="notice">
-                        <p>Watch this space for future updates on my RAICo Junior Fellowship!</p>
-                    </div>
+                    <h2 class="lead">What if a robot could scan for radioactive contamination, so health physics
+                        specialists can focus on the jobs only they can do?</h2>
+                    <p>That was the question behind my 2024–25 <a href="https://raico.org/" target="_blank"
+                            rel="noopener">RAICo</a> (Robotics and AI Collaboration) Junior Fellowship. Alongside my PhD
+                        in <a href="https://cradlerobotics.co.uk/" target="_blank" rel="noopener">CRADLE</a> at The
+                        University of Manchester, the fellowship gave me time, funding and access to RAICo’s facilities
+                        to turn some of my research into a working demonstrator. The project was titled <em>Development
+                            of a Cobot Radiological Survey Assistant</em>.</p>
+                    <h2>The challenge</h2>
+                    <p>Nearly every operation on a decommissioning site needs the involvement, and the safety checks, of
+                        a health physics specialist, and there is a shortage of them. Much of their time goes on
+                        tedious, repetitive tasks, which makes them a bottleneck for the whole site. One of those tasks
+                        is monitoring: items such as PPE, radios and paperwork, as well as people, must be checked for
+                        contamination before leaving radiological and contamination controlled areas.</p>
+                    <p>Whole body and small article monitors only reliably detect gamma radiation, so alpha and beta
+                        contamination still has to be checked by hand, with a person moving a probe over every surface.
+                        That is slow and costly, and it depends on exactly the people the industry is short of.</p>
+                    <h2>The project</h2>
+                    <p>The idea was to hand that job to a collaborative robot (cobot). The demonstrator paired a cobot
+                        arm with RGB-D cameras and a DP6 radiation probe. The cameras capture a point cloud of whatever
+                        needs scanning, and a planner works out how the arm should move the probe over its surface.</p>
+                    <p>The planner is a sampling-based viewpoint approach. It generates candidate viewpoints around the
+                        object and assesses which ones the probe can actually reach, then uses a greedy algorithm to
+                        pick a near-optimal set that covers the whole surface. Finally, a wavefront algorithm connects
+                        those scan points into a continuous, natural-looking path. A useful side effect is that the
+                        system can flag the areas it <em>can’t</em> scan, which matters when the aim is to guarantee
+                        that nothing has been missed. I also adapted the approach to use dual quaternions and
+                        constrained controllers.</p>
+                    <p>I built the simulation first, covering the manipulator, the object and the sensors. I then used
+                        it to test the approach on flat surfaces, simple static objects and static human models, before
+                        taking it onto the real system at RAICo.</p>
+                    <figure class="poster"><a href="../assets/files/raico-fellow-poster-bettles.pdf" target="_blank"
+                            rel="noopener"><img src="../assets/images/raico-fellow-poster.jpg"
+                                alt="Poster: Development of a Cobot Radiological Survey Assistant" loading="lazy"></a>
+                        <figcaption>My fellowship poster from the RAICo academic showcase (<a
+                                href="../assets/files/raico-fellow-poster-bettles.pdf" target="_blank"
+                                rel="noopener">view as PDF</a>)</figcaption>
+                    </figure>
+                    <h2>What worked, and what didn’t</h2>
+                    <p>The simulation worked well, and we were able to prove the approach on flat surfaces and simple
+                        static objects. The system identified the regions it couldn’t scan and covered everything else.
+                        I also got to see the real system move and work, which was easily the most rewarding part of the
+                        fellowship.</p>
+                    <p>Real hardware is never as kind as simulation, though. A connectivity problem with the robot
+                        hampered a lot of my testing, and in the end it was traced back to the computer I was using
+                        rather than the robot itself. I tried several fixes, including new hardware, and by the time I
+                        had found the cause I had no experiment trips left to repeat the work on RAICo’s own PC. As a
+                        result, the system only ran on occasion, and I came away with qualitative results and plenty of
+                        video and photos rather than the quantitative data I had hoped for. Those results did show me
+                        the limits of the approach, which is exactly what shaped the next iteration.</p>
+                    <h2>Learning from the people who do the job</h2>
+                    <p>The fellowship also funded my <a href="../sizewell-a-secondment/">three-week placement at NRS
+                            Sizewell A</a>, where the radiological monitoring team trained me, shared best practice,
+                        gave feedback on the system design and showed me real use cases. That is why the system is
+                        designed to sit at barriers between contamination controlled areas, where manual personnel
+                        monitoring is currently required, and at egress points out of radiological controlled areas for
+                        clearing objects.</p>
+                    <p>Back at RAICo, I spent around 16 days on site across several trips, running experiments and
+                        talking to the academics and wider community. The academic showcase was a real highlight: it
+                        brought the supply chain together to see the work, several people got in touch afterwards, and I
+                        came away with some key connections.</p>
+                    <blockquote class="pullquote">
+                        <p>I think the most valuable aspect of working with RAICo was coming to RAICo and engaging with
+                            the academics and wider community. Both through the placement and the showcase, with the
+                            showcase being extremely valuable as I gained several key connections from it.</p>
+                    </blockquote>
+                    <h2>Beyond the robot</h2>
+                    <p>The programme also included commercialisation workshops delivered by FIS360, plus career
+                        coaching. My project would be difficult to commercialise in its current state, but the workshops
+                        taught me a lot about how research turns into products and gave me real insight into the world
+                        of start-ups, along with plenty of new options to think about for my career.</p>
+                    <h2>What’s next</h2>
+                    <p>This work forms part of my wider PhD. The next step is to reformulate the problem, moving from
+                        planning a scan path in advance to controlling the robot as it scans, which should address the
+                        limitations I hit with the sampling approach. The focus will then move to scanning humans and
+                        tracking a moving surface, with safe human-robot interaction a key requirement, and eventually
+                        deploying a system on site to gather real-world data and user feedback. The earlier version of
+                        this work was presented at <a href="../taros-conference-2024/">TAROS 2024</a>, and you can read
+                        the paper on my <a href="../../publications/index.html#conference-proceedings">publications
+                            page</a>.</p>
+                    <h2>Advice for future fellows</h2>
+                    <p>If I started again, I would make a detailed plan at the start and stick to it, without getting
+                        distracted by other work, because the time goes very quickly. And I would get up to RAICo sooner
+                        and for longer. Being there, running experiments and working alongside everyone else was the
+                        most useful and rewarding part of the fellowship.</p>
+                    <p>Thank you to my supervisors Joaquin Carrasco and Bruno Adorno, to Michael Carr at the NDA and
+                        Jeremy Andrew at NRS Dounreay, to the RAICo team and my mentor, and to NRS Dounreay and the NDA
+                        for their support of this work.</p>
                     <nav class="article-nav" aria-label="More posts"><a class="prev"
                             href="../nda-supply-chain-event-2025/"><small>← Older</small>NDA Supply Chain Event</a>
                     </nav>
